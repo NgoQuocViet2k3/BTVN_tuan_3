@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr =[1,5,8,4,6,9,13,15,18,23,24,27];
+    let number = parseInt(prompt("Nhập một số: "))
+    for(let i=0;i<arr.length;i++){
+        if (number ===arr[i]){
+            alert("Số " + number + "nằm ở vị trí " + i )
+            break;
+        }else {
+        alert('Số ' + number + " không có trong mảng")
+            break;
+        }
+    }
+</script>
+</body>
+</html>
